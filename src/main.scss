@@ -2,7 +2,7 @@
   --primary-bg-color: rgb(44, 44, 44);
   --secondary-bg-color: rgb(34, 34, 34);
   --editor-bg-color: rgb(34, 34, 34);
-  --border-color:  rgb(44, 44, 44);
+  --border-color: rgb(26, 26, 26);
   --ui-text-color: rgb(194, 194, 194);
 
   --sn-stylekit-info-color: #df4a16;
@@ -50,7 +50,7 @@
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
 
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
-  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-neutral-color);
 }
 
 #select {
@@ -67,4 +67,8 @@
 
 pre {
   overflow: auto;
+}
+
+#footer-bar {
+  background-color: rgb(119, 63, 114);
 }

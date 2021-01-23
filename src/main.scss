@@ -14,10 +14,10 @@
   --sn-stylekit-success-color: #64dd17;
   --sn-stylekit-success-contrast-color: white;
 
-  --sn-stylekit-warning-color: #ffa000;
+  --sn-stylekit-warning-color: rgb(119, 63, 114);
   --sn-stylekit-warning-contrast-color: white;
 
-  --sn-stylekit-danger-color: #d32f2f;
+  --sn-stylekit-danger-color: #df4a16;
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
@@ -65,6 +65,14 @@
   appearance: none;
 }
 
+.sn-component .sk-menu-panel .sk-menu-panel-row,
+#notes-column .note,
+.notes .note {
+  &:not(.selected):hover {
+    background-color: var(--primary-bg-color) !important;
+  }
+}
+
 pre {
   overflow: auto;
 }
@@ -73,11 +81,15 @@ pre {
   color: var(--ui-text-color) !important;
 }
 
-.tags, .tags #tags-content {
+.tags,
+.tags #tags-content {
   background-color: var(--primary-bg-color);
 }
 
-.sn-component .sk-button.info, .sn-component .info.sk-box, .sn-component .sk-box.info, .sn-component .sk-circle.info {
+.sn-component .sk-button.info,
+.sn-component .info.sk-box,
+.sn-component .sk-box.info,
+.sn-component .sk-circle.info {
   background-color: rgb(119, 63, 114);
   border-color: rgb(119, 63, 114);
 

@@ -9,7 +9,7 @@ This theme is based off my [Overcast Theme](https://github.com/ceiphr/sn-overcas
 
 1. Open the [Standard Notes web app](https://app.standardnotes.org/).
 
-2. In extensions, click import, paste `???` and hit `ENTER`.
+2. In extensions, click import, paste `https://changelog.ceiphr.com/p/zwtjsCx2fY` and hit `ENTER`.
 
 3. Click "Install," then activate the *Yaru* theme.
 

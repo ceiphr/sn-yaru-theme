@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ceiphr/sn-yaru-theme/master/yaru.png" alt="overcast" align="right" width=200px/>
+<img src="https://raw.githubusercontent.com/ceiphr/sn-yaru-theme/master/yaru.png" alt="yaru" align="right" width=200px/>
 
 # Standard Notes Yaru Theme (WIP)
 
@@ -11,7 +11,7 @@ This theme is based off my [Overcast Theme](https://github.com/ceiphr/sn-overcas
 
 2. In extensions, click import, paste `???` and hit `ENTER`.
 
-3. Click "Install," then activate the *Overcast* theme.
+3. Click "Install," then activate the *Yaru* theme.
 
 <!-- ## Preview
 
@@ -29,7 +29,7 @@ The logo for this project is the Suru icon for Ubuntu's default notes app; it is
 
 ## Disclaimer
 
-I, [Ari Birnbaum](https://www.ceiphr.com/), am in no way affiliated with Ubuntu, the teams behind Ubuntu, Canonical UK Ltd., Canonical Canada Ltd., or Canonical Ltd.
+I, [Ari Birnbaum](https://www.ceiphr.com/), am in no way affiliated with Ubuntu, the teams behind Ubuntu, the teams behind Yaru, Canonical UK Ltd., Canonical Canada Ltd., or Canonical Ltd.
 
 Nor am I affiliated with Standard Notes or the teams behind Standard Notes.
 

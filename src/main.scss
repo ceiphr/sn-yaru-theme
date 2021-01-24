@@ -11,7 +11,7 @@
   --sn-stylekit-neutral-color: #727072;
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-success-color: #64dd17;
+  --sn-stylekit-success-color: #039be5;
   --sn-stylekit-success-contrast-color: white;
 
   --sn-stylekit-warning-color: rgb(119, 63, 114);
@@ -65,7 +65,25 @@
   appearance: none;
 }
 
-.sn-component .sk-menu-panel .sk-menu-panel-row,
+.sn-component .sk-menu-panel,
+.sk-panel-header,
+.sn-component .sk-panel,
+.sk-menu-panel-header,
+#editor-title-bar,
+.tags,
+.tags #tags-content,
+.sn-component .sk-menu-panel .sk-menu-panel-row {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.sk-menu-panel-header {
+  color: rgb(101, 101, 101) !important;
+}
+
+.sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
+  background-color: rgb(61, 61, 61);
+}
+
 #notes-column .note,
 .notes .note {
   &:not(.selected):hover {
@@ -79,11 +97,6 @@ pre {
 
 .editor-toolbar button {
   color: var(--ui-text-color) !important;
-}
-
-.tags,
-.tags #tags-content {
-  background-color: var(--primary-bg-color);
 }
 
 .sn-component .sk-button.info,

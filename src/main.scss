@@ -51,6 +51,12 @@
 
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-neutral-color);
+
+  --sn-stylekit-general-border-radius: 4px;
+
+  --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 #select {
@@ -65,6 +71,8 @@
   appearance: none;
 }
 
+#notes-column .filter-section .filter-bar,
+.notes .filter-section .filter-bar,
 .editor-toolbar button.active,
 .editor-toolbar button:hover,
 .sn-component .sk-menu-panel,

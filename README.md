@@ -25,7 +25,10 @@ This theme is based off my [Overcast Theme](https://github.com/ceiphr/sn-overcas
 
 This extension is developed and maintained by [@ceiphr](https://github.com/ceiphr).
 
-The logo for this project is the Suru icon for Ubuntu's default notes app; it is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+The logo for this project is the Suru icon (by [@snwh](https://github.com/snwh)) for Ubuntu's default notes app; it is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/). No modifications were made.
+
+I was inspired to make this after installing this fantastic Yaru-based VS Code theme:
+https://github.com/AdsonCicilioti/yaru-vscode
 
 ## Disclaimer
 

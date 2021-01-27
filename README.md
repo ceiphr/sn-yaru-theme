@@ -1,9 +1,11 @@
 <img src="https://raw.githubusercontent.com/ceiphr/sn-yaru-theme/master/yaru.png" alt="yaru" align="right" width=200px/>
 
-# Standard Notes Yaru Theme (WIP)
+# Standard Notes Yaru Theme
 
 Yaru is the default theme for Ubuntu. This is an unofficial Yaru theme for Standard Notes.
 This theme is based off my [Overcast Theme](https://github.com/ceiphr/sn-overcast-theme) and the color scheme was inspired by the [Ubuntu Yaru theme suite](https://github.com/ubuntu/yaru).
+
+Note: This repo only contains a dark theme. If I recieve requests for a light variant, I will make one.
 
 ## Installation
 

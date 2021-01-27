@@ -13,13 +13,13 @@ This theme is based off my [Overcast Theme](https://github.com/ceiphr/sn-overcas
 
 3. Click "Install," then activate the *Yaru* theme.
 
-<!-- ## Preview
+## Preview
 
 &nbsp;
 
-![Standard Notes Screenshot](???)
+![Standard Notes Preview](https://raw.githubusercontent.com/ceiphr/sn-yaru-theme/master/preview.png)
 
-&nbsp; -->
+&nbsp;
 
 ## Credits
 

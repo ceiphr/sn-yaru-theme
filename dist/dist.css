@@ -36,6 +36,10 @@
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-neutral-color);
+  --sn-stylekit-general-border-radius: 4px;
+  --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 #select {
@@ -50,6 +54,17 @@
   appearance: none;
 }
 
+.sn-component .sk-button.sk-secondary-contrast::before {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::after {
+  color: var(--primary-bg-color) !important;
+}
+
+#search-bar,
+#notes-column .filter-section .filter-bar,
+.notes .filter-section .filter-bar,
 .editor-toolbar button.active,
 .editor-toolbar button:hover,
 .sn-component .sk-menu-panel,

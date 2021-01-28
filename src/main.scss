@@ -71,6 +71,15 @@
   appearance: none;
 }
 
+.sn-component .sk-button.sk-secondary-contrast::before {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::after {
+  color: var(--primary-bg-color) !important;
+}
+
+#search-bar,
 #notes-column .filter-section .filter-bar,
 .notes .filter-section .filter-bar,
 .editor-toolbar button.active,

@@ -100,6 +100,10 @@ pre {
   color: var(--ui-text-color) !important;
 }
 
+.note .selected, .note .selected svg {
+  color: white;
+}
+
 .sn-component .sk-button.info,
 .sn-component .info.sk-box,
 .sn-component .sk-box.info,
